@@ -14,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId "com.tencent.taidemo"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -38,4 +38,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation 'com.tencent.taisdk:taisdk:1.2.3.3'
+//    https://github.com/shaoshuai904/RecordWav
+    implementation 'com.github.shaoshuai904:RecordWav:1.0.2'
 }

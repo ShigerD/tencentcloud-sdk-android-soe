@@ -10,9 +10,12 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
     private ListView listView;
-    private String[] activityTitles = {"数学批改", "口语评测"};
-    private String[] activityName = {"com.tencent.taidemo.MathCorrectionActivity",
-            "com.tencent.taidemo.OralEvaluationActivity"};
+    private String[] activityTitles = {"数学批改", "口语评测","WAV录制测试"};
+    private String[] activityName = {
+            "com.tencent.taidemo.MathCorrectionActivity"
+            ,"com.tencent.taidemo.OralEvaluationActivity"
+            ,"com.tencent.taidemo.WavTestActivity"
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+
     }
 
 }
